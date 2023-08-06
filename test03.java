@@ -60,11 +60,11 @@ public class test03 {
 		// test03_cardGame mod1 = new test03_cardGame();
 		test03_cardGame computer1 = new test03_cardGame();
 		test03_cardGame computer2 = new test03_cardGame();
+		test03_cardGame player1 = new test03_cardGame();
+		test03_cardGame player2 = new test03_cardGame();
 		computer1.playGame();
 		computer2.playGame();
-		computer1.result(computer2.cardArr);
-
-		// player1.result(player2);
+		computer1.result(computer2);
 		
 		
 		
